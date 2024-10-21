@@ -1,0 +1,227 @@
+.container__full {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #151e33;
+}
+.container_logo_movie{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.logo_movie{
+    width: 100%;
+}
+
+.title__movie {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+.form__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.input__movies {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button__search {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.button__search:hover {
+    background-color: #0056b3;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container_rutes{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn_rutes{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #0f1014;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn_rutes:hover{
+    box-shadow: 3px 3px 10px white;
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+/*estilos reproductor trailer*/
+.viewtrailer {
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.content_description_banner{
+    width: 500px;
+    background-color: #151e33;
+    border-radius: 12px;
+    padding: 8px;
+    
+}
+
+
+.botonMovie {
+    background-color: #0f1014;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 1px solid red;
+}
+
+
+.reproductor {
+    width: 100%;
+    height: 600px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.text-white {
+    color: white;
+    
+}
+
+
+
+/*estilos cards*/
+
+.container_movies {
+    max-width: 1440px;
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+
+.delete {
+    background-color: red;
+}
+
+.movie_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.movie_card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    gap: 5px;
+}
+
+.movie__card__img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.movie_card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  
+}
+
+.movie-card p {
+    margin-bottom: 5px;
+   
+}
+.sorry{ 
+    color: red;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    .container__full {
+            max-width: 375px;
+            margin: 0 auto;
+            padding: 0.5rem;
+        }
+        .content_description_banner {
+            width: 300px;
+            padding: 8px;
+    
+        }
+    
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+      
+
+    .movie-list {
+        grid-template-columns: 1fr;
+    }
+
+    .movie-card {
+        padding: 10px;
+    }
+
+    .movie-card h2 {
+        font-size: 16px;
+    }
+    .reproductor {
+      width: 100%;
+      height: 600px;
+    }
+    .closeBtn {
+        position: absolute;
+        top: 1195px;
+        left: 240px;
+    }
+}

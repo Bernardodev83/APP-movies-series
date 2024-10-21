@@ -1,0 +1,120 @@
+.container__home {
+    max-width: 1440px;
+    width: 100%;
+    height: 100hv;
+    padding-top: 1rem;
+    background-color: #151e33;
+}
+
+.title__cartelera {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 100%;
+}
+.swiper {
+    width: 1100px;
+    height: 100%;
+    
+}
+
+.swiper-slide {
+  
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide img {
+   
+    width: 100%;
+    height: 500px;
+}
+
+.nabvar__card>img {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1100px;
+
+}
+
+.nabvar__card .imagen__serie {
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+
+}
+
+.nabvar__card>h1 {
+    position: absolute;
+    top: 350px;
+    left: 120px;
+    background-color: var(--guardsman-red-400);
+    font-size: 2rem;
+    border-radius: 0px 10px 10px 0px;
+    padding: 1rem;
+    font-weight: 600;
+    color: red;
+}
+.title_series_Card{
+    position: absolute;
+        top: 350px;
+        left: 120px;
+        font-size: 2rem;
+        border-radius: 0px 10px 10px 0px;
+        padding: 1rem;
+        font-weight: 600;
+        color: red;
+}
+
+.skeleton-container {
+    border: 1px solid red;
+    width: 300px;
+    /* Puedes ajustar a tu necesidad */
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    .nabvar__card>h1 {
+        font-size: 20px;
+        top: 140px;
+        left: 150px;
+    }
+    .title_series_Card{
+        font-size: 20px;
+            top: 140px;
+            left: 150px;
+    }
+        .swiper {
+            width: 370px;
+            height: 100%;
+    
+        }
+
+    .swiper-slide {
+        flex: grid;
+        grid-template-columns: 1fr;
+        /*grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));*/
+    }
+
+    .swiper-slide img {
+        width: 370px;
+        height: 100%;
+        padding-left: 0px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}

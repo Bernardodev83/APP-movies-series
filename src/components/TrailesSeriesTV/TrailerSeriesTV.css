@@ -1,0 +1,118 @@
+.container_logo_serie {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.logo_serie {
+    width: 100%;
+}
+
+
+
+.container_rutes {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn_rutes {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #0f1014;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn_rutes:hover {
+    box-shadow: 3px 3px 10px white;
+    color: #007bff;
+    transform: scale(1.1);
+}
+.viewtrailerSerie{
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.content_description_banner {
+    width: 500px;
+    background-color: #151e33;
+    border-radius: 12px;
+    padding: 8px;
+
+}
+.sorrySeries {
+    font-size: 50px;
+    color: red;
+    padding-bottom: 50px;
+
+}
+.botonSerie{
+    background-color: #0f1014;
+        color: white;
+        outline: none;
+        border: 1px solid white;
+        padding: 10px 10px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        border: 1px solid red;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    .container__full {
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+
+    .content_description_banner {
+        width: 300px;
+        padding: 8px;
+
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+
+    .movie-list {
+        grid-template-columns: 1fr;
+    }
+
+    .movie-card {
+        padding: 10px;
+    }
+
+    .movie-card h2 {
+        font-size: 16px;
+    }
+
+    .reproductor {
+        width: 100%;
+        height: 600px;
+    }
+
+    .closeBtnSerie {
+        position: absolute;
+        top: 1195px;
+        left: 240px;
+    }
+}
