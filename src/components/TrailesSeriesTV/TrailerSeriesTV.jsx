@@ -134,7 +134,7 @@ export const TrailersSeriesTV = () => {
                         autoplay: 1,
                         controls: 1,
                         cc_load_policy: 0,
-                        fs: 0,
+                        fs: 1,
                         iv_load_policy: 1,
                         modestbranding: 0,
                         rel: 0,
