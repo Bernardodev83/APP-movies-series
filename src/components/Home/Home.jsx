@@ -47,7 +47,7 @@ useEffect(() => {
           <section className="container__home">
         <div className="container_iconYoutube">
           <img className="logo" src={iconYoutube} />
-          <h1 className="title_youtube">TRAILERS DE PELUCULAS Y SERIES</h1>
+          <h1 className="title_youtube">TRAILERS DE PELICULAS Y SERIES</h1>
         </div>
         
         <h1 className="title__cartelera">Peliculas En Cartelera</h1>

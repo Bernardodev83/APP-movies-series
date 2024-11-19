@@ -25,6 +25,9 @@
 }
 .logo{
     width: 100px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 12px;
 }
 .title_youtube{
     width: 70%;

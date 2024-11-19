@@ -102,7 +102,7 @@ export const TrailersMovies = () => {
       </form>
 
       <div className='container_rutes'>
-        <Link to='/'><button className='btn_rutes' >HOME</button></Link>
+        <Link to='/'><button className='btn_rutes' >Inico</button></Link>
         <Link to='/movies'><button className='btn_rutes' >peliculas</button></Link>
         <Link to='/series'><button className='btn_rutes' >series</button></Link>
       </div>
