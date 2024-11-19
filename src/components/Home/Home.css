@@ -1,3 +1,4 @@
+
 .container__home {
     max-width: 1440px;
     width: 100%;
@@ -12,8 +13,23 @@
     font-size: 30px;
     margin-bottom: 30px;
 }
-.logo{
+.container_iconYoutube{
     width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: var(--Violet);
+    margin-bottom: 50px;
+}
+.logo{
+    width: 100px;
+}
+.title_youtube{
+    width: 70%;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 .swiper {
     width: 1100px;
@@ -55,14 +71,14 @@
 
 .nabvar__card>h1 {
     position: absolute;
-    top: 350px;
-    left: 120px;
-    background-color: var(--guardsman-red-400);
+    top: 420px;
+    left: 30px;
+    background-color: var(--Black);
     font-size: 2rem;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 8px;
     padding: 1rem;
     font-weight: 600;
-    color: red;
+    color: var(--Red);
 }
 .title_series_Card{
     position: absolute;
@@ -116,5 +132,15 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
-
+        .nabvar__card>h1 {
+            left: 5px;
+            top: 160px;
+            font-size: 14px;
+        }
+        .logo{
+            width: 50px;
+        }
+        .title_youtube{
+            font-size: 18px;
+        }
 }

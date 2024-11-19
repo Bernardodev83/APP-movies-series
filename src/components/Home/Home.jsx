@@ -12,7 +12,8 @@ import "swiper/css/navigation";
 import './Home.css'
 import { Link } from "react-router-dom";
 
-import logo from '../../assets/TRAILERS-PELUCULAS-SERIES-18-10-2024.jpg'
+{/*import logo from '../../assets/TRAILERS-PELUCULAS-SERIES-18-10-2024.jpg'*/}
+import iconYoutube from '../../assets/IconYoytube/youtube.svg'
 
 
 export const Home = () => {
@@ -44,8 +45,11 @@ useEffect(() => {
   return (
       <>
           <section className="container__home">
+        <div className="container_iconYoutube">
+          <img className="logo" src={iconYoutube} />
+          <h1 className="title_youtube">TRAILERS DE PELUCULAS Y SERIES</h1>
+        </div>
         
-        <img className="logo" src={logo} />
         <h1 className="title__cartelera">Peliculas En Cartelera</h1>
         <Link to='movies'>
       <Swiper

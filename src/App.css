@@ -1,3 +1,18 @@
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Blue: hsl(223, 87%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --Orange: hsl(25, 97%, 53%);
+  --RedLigth: hsl(0, 100%, 74%);
+  --Violet: hsl(257, 40%, 49%);
+  --SoftMagenta: hsl(300, 69%, 71%);
+  --Cyan: hsl(180, 62%, 55%);
+  --OrangeLigth: hsl(34, 97%, 64%);
+  --Black: #191c32;
+  --Green: hsl(154, 59%, 51%);
+  --Green-shadow: hsla(154, 59%, 51%, 0.5);
+}
+
 *{
   padding: 0;
   margin: 0;
